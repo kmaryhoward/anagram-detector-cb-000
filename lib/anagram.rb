@@ -7,15 +7,15 @@ class Anagram
 
   def match(array)
     matches = []
-    array.each do |item| 
+    array.each do |item|
       if item.split(//).sort == @word.split(//).sort
         matches << item
-      end    
+      end
     end
   matches
 end
 
- 
+
 
 
 
